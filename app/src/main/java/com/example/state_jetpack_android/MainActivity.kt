@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             State_Jetpack_AndroidTheme {
                 // A surface container using the 'background' color from the theme
-                Surface(
+                Surface(    
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
